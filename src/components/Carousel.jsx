@@ -8,17 +8,21 @@ function Carousel() {
     {
       image: '/assets/img/background/LNMIIT_Jaipur6.jpg',
       title: 'NCVPRIPG-2026',
-      dates: "22nd-24th July 2026",
+      dates: "22-24 July, 2026",
       location: 'The LNM Institute Of Information Technology - Jaipur',
       location2:'(Jointly organized with MNIT Jaipur)',
+      location3:'In association with',
+      location4:'Indian Unit for Pattern Recognition and Artificial Intelligence',
       description: 'The 11th National Conference on Computer Vision, Pattern Recognition, Image Processing and Graphics'
     },
     {
       image: '/assets/img/background/LNMIIT_Jaipur5.jpg',
       title: 'NCVPRIPG-2026',
-      dates: "22nd-24th July 2026",
+      dates: "22-24 July, 2026",
       location: 'The LNM Institute Of Information Technology - Jaipur',
       location2:'(Jointly organized with MNIT Jaipur)',
+      location3:'In association with',
+      location4:'Indian Unit for Pattern Recognition and Artificial Intelligence',
       description: 'The 11th National Conference on Computer Vision, Pattern Recognition, Image Processing and Graphics'
     }
   ];
@@ -60,13 +64,19 @@ function Carousel() {
               <p className="carousel-location animate__animated animate__fadeInDown">
                 {slide.location2}
               </p>
+              <p className="carousel-location animate__animated animate__fadeInDown">
+                {slide.location3}
+              </p>
+              <p className="carousel-location animate__animated animate__fadeInDown">
+                {slide.location4}
+              </p>
               <p className="carousel-description animate__animated animate__fadeInDown">
                 {slide.description}
               </p>
               <div className="carousel-divider" aria-hidden="true" />
               <div className="carousel-logos">
                 {[
-                  'ncvpripg_logo.png',
+                  'logo.png',
                   'lnm_logo.png',
                   'mnit_logo.png'
                 ].map((logo, idx) => (

@@ -25,8 +25,8 @@ $primary-color: #70b60a;
     transition: opacity 0.5s ease-in-out;
     display: flex;
     align-items: flex-start;
-    justify-content: center;
-    padding-top: 80px;
+    // justify-content: center;
+    padding-top: 40px;
 
     &::before {
       content: '';
@@ -54,7 +54,7 @@ $primary-color: #70b60a;
       max-width: 900px;
       padding: 0px;
       position: relative;
-      z-index: 5;
+      
       backdrop-filter: blur(2px);
     }
 
@@ -81,13 +81,16 @@ $primary-color: #70b60a;
       color: white;
       margin: 0.25rem 0;
       font-weight: 600;
+      white-space: nowrap;
 
       @media (max-width: 768px) {
         font-size: 14px;
+        white-space: normal;
       }
 
       @media (max-width: 576px) {
         font-size: 12px;
+        white-space: normal;
       }
     }
   }

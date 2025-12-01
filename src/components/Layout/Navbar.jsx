@@ -70,17 +70,6 @@ function Navbar() {
   return (
     <header id="header-wrap" ref={navRef}>
       <div className="nav-container">
-        <div className="brand">
-          <Link className="navbar-brand" to="/">
-            <img
-              className="logos"
-              style={{ width: '60px' }}
-              src="/assets/img/ncvpripg_logo.png"
-              alt="NCVPRIPG Logo"
-            />
-          </Link>
-        </div>
-
         <nav>
           <div className="nav-mobile">
             <button

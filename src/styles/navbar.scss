@@ -16,14 +16,13 @@ $border-color: #ddd;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    max-width: 1240px;
     width: 100%;
-    margin: 0 auto;
     padding: 15px 20px;
 
     .brand {
       display: flex;
       align-items: center;
+      flex-shrink: 0;
 
       .navbar-brand {
         display: flex;
@@ -39,7 +38,8 @@ $border-color: #ddd;
     nav {
       flex: 1;
       display: flex;
-      justify-content: flex-end;
+      justify-content: space-between;
+      align-items: center;
 
       .nav-mobile {
         display: none;
@@ -102,21 +102,26 @@ $border-color: #ddd;
         list-style: none;
         display: flex;
         align-items: center;
-        gap: 5px;
+        justify-content: space-between;
+        gap: 10px;
         margin: 0;
         padding: 0;
+        flex: 1;
         flex-wrap: wrap;
 
         li {
           position: relative;
           white-space: nowrap;
+          flex: 1;
+          text-align: center;
+          min-width: fit-content;
 
           a {
             display: block;
-            padding: 12px 8px;
+            padding: 12px 10px;
             color: $text-color;
-            font-weight: 500;
-            font-size: 14px;
+            font-weight: 700;
+            font-size: 18px;
             text-decoration: none;
             transition: all 0.3s ease;
 

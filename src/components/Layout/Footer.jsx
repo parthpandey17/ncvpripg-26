@@ -13,7 +13,7 @@ function Footer() {
             <div className="footer-logo-section">
               <div className="footer-logos-container">
               <a href="https://www.lnmiit.ac.in/" target="_blank" rel="noopener noreferrer">
-                  <img className="footer-logo" src="/assets/img/ncvpripg_logo.png" alt="NCVPRIPG Logo" />
+                  <img className="footer-logo" src="/assets/img/logo.png" alt="NCVPRIPG Logo" />
                 </a>
                 <a href="https://www.lnmiit.ac.in/" target="_blank" rel="noopener noreferrer">
                   <img className="footer-logo-side" src="/assets/img/lnm_logo.png" alt="LNMIIT Logo" />

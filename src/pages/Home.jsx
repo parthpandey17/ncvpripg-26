@@ -17,8 +17,8 @@ function Home() {
   return (
     <div className="home-page">
       <Carousel />
-      <ScrollingTextSection />
-      <ScrollingImagesSection />
+      {/* <ScrollingTextSection />
+      <ScrollingImagesSection /> */}
       <About />
       <Counter />
       <UpdatesSection />
