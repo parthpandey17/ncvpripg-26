@@ -1,0 +1,122 @@
+.scrolling-text-section {
+    background-color: #f2f2f2; /* Adjust background color to a neutral tone */
+    text-align: center;
+    padding: 20px 0; /* Increase padding for better spacing */
+}
+
+.scrolling-text-container {
+    width: 100%;
+    overflow: hidden;
+}
+
+.scrolling-text {
+    display: inline-block;
+    white-space: nowrap;
+    animation: scroll-left 20s linear infinite;
+    color: transparent;
+    background-image: linear-gradient(to right, #007bff, #6610f2, #6f42c1, #e83e8c, #fd7e14, #ffc107, #28a745); /* Adjust gradient colors */
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold; /* Enhance readability with a bold font */
+    font-size: 18px; /* Adjust font size */
+}
+
+@keyframes scroll-left {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.btn-primary {
+    background-color: rgb(0, 156, 146);
+    border-color: rgb(0, 156, 146);
+  }
+  
+  .btn-primary:hover,
+  .btn-primary:focus,
+  .btn-primary:active {
+    background-color: rgb(0, 130, 122); /* Adjust the hover color as needed */
+    border-color: rgb(0, 130, 122); /* Adjust the hover border color as needed */
+  }
+  
+  .btn-secondary {
+    background-color: rgb(112, 182, 10);
+    border-color: rgb(112, 182, 10);
+  }
+  
+  .btn-secondary:hover,
+  .btn-secondary:focus,
+  .btn-secondary:active {
+    background-color: rgb(94, 153, 8); /* Adjust the hover color as needed */
+    border-color: rgb(94, 153, 8); /* Adjust the hover border color as needed */
+  }
+
+  .speaker-info {
+    position: absolute;
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    display: none;
+    text-align: center;
+    width: 85px;
+    height: 85px;
+}
+
+  .speaker-info img {
+    border-radius: 50%; /* Make the image round inside the pop-up */
+    width: 79px; /* Try a slightly smaller size */
+    height: 79px; /* Try a slightly smaller size */
+    image-rendering: crisp-edges; /* Disable antialiasing (optional) */
+}
+  
+  .registration-table td:hover .speaker-info {
+    display: block; /* Show pop-up on hover */
+    position: relative; /* Needed for proper positioning */
+    top: calc(100% + 5px); /* Position below the speaker name */
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%); /* Center horizontally */
+}
+.photo-tile {
+  height: 200px; /* Set a fixed height for all images */
+  object-fit: cover; /* Ensures the image covers the entire area */
+  width: 100%; /* Adjusts the width to keep aspect ratio */
+  margin-bottom: 10px; /* Adds space between images */
+}
+
+.scrolling-images-section {
+  background-color: #e7f1f1; /* Adjust background color to a neutral tone */
+  text-align: center;
+  /* padding: 10px 0; Increase padding for better spacing */
+}
+
+.scrolling-images-container {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.scrolling-images {
+  display: flex;
+  animation: scroll-left 20s linear infinite;
+}
+
+.scrolling-image {
+ margin-right: 10px; /* Add some spacing between images */
+  height: 120px; /* Adjust height as needed */
+  width: auto; /* Maintain aspect ratio */
+}
+
+@keyframes scroll-left {
+  0% {
+      transform: translateX(0);
+  }
+  100% {
+      transform: translateX(-50%);
+  }
+}
+

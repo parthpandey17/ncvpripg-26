@@ -1,0 +1,34 @@
+
+.dropdown-menu{
+  background: black !important;
+}
+.align-fix{
+  padding-top: 75px
+}
+
+.nav-link{
+  color: white !important;
+}
+.sizec{
+  font-size: 20px;
+
+}
+.mainh{
+ font-size: 45px;
+}
+.center{
+  text-align: left;
+}
+@media screen and (max-width: 390px) {
+  .navbar-brand{
+    width: 30px !important;
+  }
+  .logos{
+    width: 45px !important;
+  }
+}
+#car1color{
+  color: rgb(239, 243, 12) !important;
+}
+#whitecolor{
+    color: white !important;}
