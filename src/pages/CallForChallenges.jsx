@@ -84,7 +84,7 @@ function CallForChallenges() {
                 <strong>Note:</strong> It is possible to propose a combined workshop + challenge (within the 3-hour limit for the event). Please note the workshop guidelines available separately and mention in your proposal if you wish to configure your event this way.
               </p>
               <p style={{marginBottom: '30px'}}>
-                Proposals should be submitted as a pdf via email to <a href="mailto:ncvpripgiist@gmail.com">ncvpripgiist@gmail.com</a>
+                Proposals should be submitted as a pdf via email to <a href="mailto:ncvpripg2026@lnmiit.ac.in">ncvpripg2026@lnmiit.ac.in</a>
               </p>
             </div>
           </div>

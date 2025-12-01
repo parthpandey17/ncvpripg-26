@@ -13,10 +13,10 @@ function UpdatesSection() {
           <div className="col-md-12 col-sm-12 col-xs-12">
             <div className="row time-countdown justify-content-center wow fadeInUp" data-wow-delay="0.2s">
               <ul style={{ textAlign: 'justify' }}>
-                <li>Download the <a href="/files/Proceedings_NCVPRIPG_2026.pdf" download="NCVPRIPG_Proceedings.pdf">NCVPRIPG 2026 Proceedings</a>.</li>
+                {/* <li>Download the <a href="/files/Proceedings_NCVPRIPG_2026.pdf" download="NCVPRIPG_Proceedings.pdf">NCVPRIPG 2026 Proceedings</a>.</li>
                 <li>Watch all the highlights of NCVPRIPG-2026 <a href="/highlights" target="_blank" rel="noopener noreferrer">here</a>.</li>
                 <li>You can download the <a href="/files/Program_ScheduleNCVPRIPG_AllDays.pdf" download="NCVPRIPG_Schedule.pdf">program schedule</a> and <a href="/files/Inauguration_Schedule_NCVPRIPG_Final.pdf" download="NCVPRIPG_Inauguration.pdf">inauguration schedule</a> now.</li>
-                <li>Jul 14 2026: The Online Registration has been closed. For the onsite registration rates and link, please drop an email to ncvpripgiist@gmail.com<span className="flash-red"><strong> (NEW)</strong></span></li>
+                <li>Jul 14 2026: The Online Registration has been closed. For the onsite registration rates and link, please drop an email to ncvpripg2026@lnmiit.ac.in<span className="flash-red"><strong> (NEW)</strong></span></li>
                 <li>Jul 6 2026: Poster Design<a href="/srs#poster-guidelines" target="_blank" rel="noopener noreferrer"> Guidelines</a> (<a href="/files/Poster design guidelines_NCVPRIPG-2.pdf" download="NCVPRIPG_Poster_design_guidelines.pdf">PDF</a>) and standard template for presentation (<a href="/files/Presentation_NCVPRIPG_1.pptx" download="NCVPRIPG_Presentation_Slides.pptx">PPT</a>) under Student Research Symposium are now available. <span className="flash-red"><strong>(NEW)</strong></span></li>
                 <li>Jul 5 2026: We are proud to announce that <a href="https://www.mathworks.com/" target="_blank" rel="noopener noreferrer">MathWorks</a> is sponsoring the WINNER and RUNNER UP awards for the best projects in MATLAB/Simulink. For more details, visit the <a href="/srs#student-research-symposium-results">Student Research Symposium</a> page.</li>
                 <li>Due to multiple student requests, we have extended the Early Bird deadline to <strong>July 7, 2026</strong>.</li>
@@ -30,7 +30,9 @@ function UpdatesSection() {
                 <li>Apr 23 2026: A set of exciting <a href="/tutorials">Tutorials</a>, <a href="/workshops">Workshops</a>, and <a href="/challenges">Challenges</a> have been accepted by the committee.</li>
                 <li>Mar 9 2026: <a href="/call-for-challenges#call-for-challenges">Call for Challenges</a> is up.</li>
                 <li>Mar 8 2026: <a href="/call-for-tutorials#call-for-tutorials">Call for Tutorials</a>, <a href="/call-for-workshops#call-for-workshops">Call for Workshops</a>, <a href="/call-for-sponsorship#call-for-sponsorship">Call for Sponsorship</a> and <a href="/call-for-abstract#call-for-abstract">Call for Abstracts</a> are up.</li>
-                <li>Mar 7 2026: Website is up</li>
+                <li>Mar 7 2026: Website is up</li> */}
+                <li>No updates till now....</li>
+
               </ul>
             </div>
           </div>
@@ -52,24 +54,24 @@ function UpdatesSection() {
               </tr>
               <tr>
                 <td>Student Registration (Students enrolled in Indian Universities)</td>
-                <td>INR 2500</td>
-                <td>INR 3000</td>
-                <td>INR 3000</td>
-                <td>INR 3500</td>
+                <td>tbd</td>
+                <td>tbd</td>
+                <td>tbd</td>
+                <td>tbd</td>
               </tr>
               <tr>
                 <td>Academic and R&D Registration (Participants affiliated with Indian Academic/ Govt funded R&D Institutions)</td>
-                <td>INR 5500</td>
-                <td>INR 6000</td>
-                <td>INR 6000</td>
-                <td>INR 6500</td>
+                <td>tbd</td>
+                <td>tbd</td>
+                <td>tbd</td>
+                <td>tbd</td>
               </tr>
               <tr>
                 <td>Industry Registration (Participants affiliated with Indian Industries)</td>
-                <td>INR 9000</td>
-                <td>INR 9500</td>
-                <td>INR 11000</td>
-                <td>INR 11500</td>
+                <td>tbd</td>
+                <td>tbd</td>
+                <td>tbd</td>
+                <td>tbd</td>
               </tr>
             </tbody>
           </table>

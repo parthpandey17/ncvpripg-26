@@ -28,7 +28,7 @@ function Challenges() {
                 <h1 className="section-title">Challenges</h1>
               </div>
 
-              <div className="row justify-content-center">
+              {/* <div className="row justify-content-center">
                 <div className="col-lg-10 col-md-12">
                   {challenges.map((challenge, index) => (
                     <div key={index} className="challenge-card mb-5 p-4" style={{border: '1px solid #ddd', borderRadius: '8px'}}>
@@ -43,9 +43,27 @@ function Challenges() {
 
                   <div className="mt-5 pt-4 border-top text-center">
                     <p className="text-muted">For more information about challenges, please contact us:</p>
-                    <a href="mailto:ncvpripgiist@gmail.com" className="btn btn-outline-primary">
+                    <a href="mailto:ncvpripg2026@lnmiit.ac.in" className="btn btn-outline-primary">
                       <i className="fas fa-envelope"></i> Contact Challenge Chairs
                     </a>
+                  </div>
+                </div>
+              </div> */}
+              <div className="row justify-content-center">
+                <div className="col-lg-8 col-md-10">
+                  <div className="alert alert-info text-center" role="alert" style={{
+                    backgroundColor: '#f8f9fa',
+                    border: '2px solid #70b60a',
+                    borderRadius: '8px',
+                    padding: '40px 20px',
+                    fontSize: '20px',
+                    color: '#333'
+                  }}>
+                    <i className="lni-construction" style={{fontSize: '48px', color: '#70b60a', display: 'block', marginBottom: '20px'}}></i>
+                    <strong>Under Construction</strong>
+                    <p style={{marginTop: '15px', fontSize: '16px', marginBottom: '0'}}>
+                      Challenges will be updated here soon.
+                    </p>
                   </div>
                 </div>
               </div>

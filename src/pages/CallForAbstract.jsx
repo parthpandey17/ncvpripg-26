@@ -40,7 +40,7 @@ function CallForAbstract() {
                     </ul>
                     <br />
                     <p>
-                      In case of any queries please contact us at the following email id: <strong>ncvpripgiist@gmail.com</strong>. Please include the Student Research Symposium in the subject of your email.
+                      In case of any queries please contact us at the following email id: <strong>ncvpripg2026@lnmiit.ac.in</strong>. Please include the Student Research Symposium in the subject of your email.
                     </p>
 
                     <div className="mt-5 pt-4 border-top">

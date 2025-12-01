@@ -2,9 +2,9 @@ import React, { useEffect, useState } from 'react';
 import '../styles/components/counter.scss';
 
 const FINAL_COUNTS = {
-  speakers: 50,
-  submissions: 200,
-  participants: 500,
+  speakers: 0,
+  submissions: 0,
+  participants: 0,
   days: 3
 };
 

@@ -38,7 +38,7 @@ function Tutorials() {
 
                   <div className="mt-5 pt-4 border-top text-center">
                     <p className="text-muted mb-3">For more information about tutorials and registration:</p>
-                    <a href="mailto:ncvpripgiist@gmail.com" className="btn btn-primary">
+                    <a href="mailto:ncvpripg2026@lnmiit.ac.in" className="btn btn-primary">
                       <i className="fas fa-envelope"></i> Contact Tutorial Chairs
                     </a>
                   </div>

@@ -101,7 +101,7 @@ function CallForSponsorship() {
                 The table above describes the Sponsorship Opportunities, for example, free registration and access to all conference sessions. Also note that the ability to be seen on the NCVPRIPG website and to reserve a demo table gives you the chance to contact others working in the fields of computer vision, pattern recognition, image processing, and graphics. The Industry session and Sponsored Session talks give opportunities to showcase products and services to a diverse audience and forge partnerships for potential project collaborations.
               </p>
               <p style={{textAlign: 'justify'}}>
-                For more information or sponsorship opportunities, please email us at <a href="mailto:ncvpripgiist@gmail.com">ncvpripgiist@gmail.com</a>. Please send us an email with your contact information to allow us to reach your organizations quickly. Your idea will be reviewed and discussed with the organizing committee within five working days.
+                For more information or sponsorship opportunities, please email us at <a href="mailto:ncvpripg2026@lnmiit.ac.in">ncvpripg2026@lnmiit.ac.in</a>. Please send us an email with your contact information to allow us to reach your organizations quickly. Your idea will be reviewed and discussed with the organizing committee within five working days.
               </p>
             </div>
           </div>

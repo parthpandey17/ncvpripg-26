@@ -60,7 +60,7 @@ function Footer() {
             <h3 className="footer-title">Contact Us</h3>
             <p className="contact-item">
               <i className="lni-envelope"></i>
-              <a href="mailto:ncvpripg@iiita.ac.in"> ncvpripg@iiita.ac.in</a>
+              <a href="mailto:ncvpripg2026@lnmiit.ac.in"> ncvpripg2026@lnmiit.ac.in</a>
             </p>
           </div>
 

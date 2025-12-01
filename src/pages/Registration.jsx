@@ -20,7 +20,7 @@ function Registration() {
                   <div className="registration-info">
                     <p style={{textAlign: 'justify', lineHeight: '1.8'}}>
                       The Online Registration has been closed. For the onsite registration rates and link, please drop an email to 
-                      <strong> ncvpripgiist@gmail.com</strong>
+                      <strong> ncvpripg2026@lnmiit.ac.in</strong>
                       <br />
                       <br />
                       Due to multiple student requests, we have extended the Early Bird deadline to <strong>July 7, 2026</strong>.
@@ -38,7 +38,7 @@ function Registration() {
                       <br />
                       <br />
                       For onsite registration and rates, as well as additional information and inquiries, please send an email to 
-                      <strong> ncvpripgiist@gmail.com</strong>.
+                      <strong> ncvpripg2026@lnmiit.ac.in</strong>.
                     </p>
 
                     <div className="mt-5 pt-5 border-top">
@@ -57,7 +57,7 @@ function Registration() {
                     <div className="mt-5 text-center">
                       <p className="text-muted mb-3">For more information and support:</p>
                       <h5>
-                        <a href="mailto:ncvpripgiist@gmail.com" className="btn btn-primary">
+                        <a href="mailto:ncvpripg2026@lnmiit.ac.in" className="btn btn-primary">
                           <i className="fas fa-envelope"></i> Contact Registration Support
                         </a>
                       </h5>

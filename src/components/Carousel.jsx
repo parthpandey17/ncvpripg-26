@@ -11,8 +11,7 @@ function Carousel() {
       dates: "22-24 July, 2026",
       location: 'The LNM Institute Of Information Technology - Jaipur',
       location2:'(Jointly organized with MNIT Jaipur)',
-      location3:'In association with',
-      location4:'Indian Unit for Pattern Recognition and Artificial Intelligence',
+
       description: 'The 11th National Conference on Computer Vision, Pattern Recognition, Image Processing and Graphics'
     },
     {
@@ -21,8 +20,7 @@ function Carousel() {
       dates: "22-24 July, 2026",
       location: 'The LNM Institute Of Information Technology - Jaipur',
       location2:'(Jointly organized with MNIT Jaipur)',
-      location3:'In association with',
-      location4:'Indian Unit for Pattern Recognition and Artificial Intelligence',
+      
       description: 'The 11th National Conference on Computer Vision, Pattern Recognition, Image Processing and Graphics'
     }
   ];
@@ -63,12 +61,6 @@ function Carousel() {
               </p>
               <p className="carousel-location animate__animated animate__fadeInDown">
                 {slide.location2}
-              </p>
-              <p className="carousel-location animate__animated animate__fadeInDown">
-                {slide.location3}
-              </p>
-              <p className="carousel-location animate__animated animate__fadeInDown">
-                {slide.location4}
               </p>
               <p className="carousel-description animate__animated animate__fadeInDown">
                 {slide.description}

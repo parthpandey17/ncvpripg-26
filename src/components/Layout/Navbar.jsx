@@ -89,12 +89,6 @@ function Navbar() {
               </Link>
             </li>
 
-            <li className="clickable">
-              <Link to="/speakers" onClick={handleLinkClick}>
-                   Speakers
-              </Link>
-            </li>
-
             <li className="nav-dropdown-toggle"
                 onMouseEnter={() => handleDropdownHover('program')}
                 onMouseLeave={handleDropdownLeave}>
@@ -106,25 +100,16 @@ function Navbar() {
                   </Link>
                 </li>
                 <li className="clickable">
-                  <Link to="/tutorials" onClick={handleLinkClick}>
-                    Tutorials
-                  </Link>
-                </li>
-                <li className="clickable">
                   <Link to="/workshops" onClick={handleLinkClick}>
                     Workshops
                   </Link>
                 </li>
                 <li className="clickable">
-                  <Link to="/srs" onClick={handleLinkClick}>
-                    Student Research Symposium
+                  <Link to="/tutorials" onClick={handleLinkClick}>
+                    Tutorials
                   </Link>
                 </li>
-                <li className="clickable">
-                  <Link to="/program" onClick={handleLinkClick}>
-                    Schedule
-                  </Link>
-                </li>
+                 
                 <li className="clickable">
                   <Link to="/invited-talks" onClick={handleLinkClick}>
                     Invited Talks
@@ -135,6 +120,11 @@ function Navbar() {
                     Industry Speakers
                   </Link>
                 </li>
+                <li className="clickable">
+                  <Link to="/srs" onClick={handleLinkClick}>
+                    Student Research Symposium
+                  </Link>
+                </li>
               </ul>
             </li>
 
@@ -143,11 +133,7 @@ function Navbar() {
                 onMouseLeave={handleDropdownLeave}>
               <a href="#!" onClick={(e) => { e.preventDefault(); handleDropdownClick('calls'); }}>Calls</a>
               <ul className={`navbar-dropdown ${openDropdown === 'calls' ? 'show' : ''}`}>
-                <li className="clickable">
-                  <a href="/CFP_NCVPRIPG2026.pdf" target="_blank" rel="noopener noreferrer" onClick={handleLinkClick}>
-                    CFP
-                  </a>
-                </li>
+                
                 <li className="clickable">
                   <Link to="/call-for-challenges" onClick={handleLinkClick}>
                     Call for Challenges
@@ -173,14 +159,15 @@ function Navbar() {
                     Call for Abstracts
                   </Link>
                 </li>
+                <li className="clickable">
+                  <a href="/CFP_NCVPRIPG2026.pdf" target="_blank" rel="noopener noreferrer" onClick={handleLinkClick}>
+                    CFP
+                  </a>
+                </li>
               </ul>
             </li>
 
-            <li className="clickable">
-              <Link to="/committee" onClick={closeMenu}>
-                Committee
-              </Link>
-            </li>
+            
 
             <li className="nav-dropdown-toggle"
                 onMouseEnter={() => handleDropdownHover('submissions')}
@@ -205,6 +192,20 @@ function Navbar() {
                     Registration
                   </Link>
             </li>
+
+                 <li className="clickable">
+              <Link to="/committee" onClick={closeMenu}>
+                Committee
+              </Link>
+            </li>
+
+            
+            <li className="clickable">
+              <Link to="/speakers" onClick={handleLinkClick}>
+                   Speakers
+              </Link>
+            </li>
+
             <li className="nav-dropdown-toggle"
                 onMouseEnter={() => handleDropdownHover('information')}
                 onMouseLeave={handleDropdownLeave}>
@@ -227,6 +228,11 @@ function Navbar() {
                   </Link>
                 </li>
               </ul>
+            </li>
+            <li className="clickable">
+                  <Link to="/program" onClick={handleLinkClick}>
+                    Schedule
+                  </Link>
             </li>
 
             <li className="clickable">

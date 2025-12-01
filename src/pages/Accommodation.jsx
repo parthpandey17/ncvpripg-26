@@ -31,7 +31,7 @@ function Accommodation() {
                 Information regarding accommodation options and booking procedures will be provided closer to the conference date. 
               </p>
               {/* <p style={{textAlign: 'center', marginBottom: '30px', fontSize: '16px'}}>
-                For accommodation inquiries, please contact us at <a href="mailto:ncvpripgiist@gmail.com">ncvpripgiist@gmail.com</a>
+                For accommodation inquiries, please contact us at <a href="mailto:ncvpripg2026@lnmiit.ac.in">ncvpripg2026@lnmiit.ac.in</a>
               </p> */}
             </div>
           </div>
