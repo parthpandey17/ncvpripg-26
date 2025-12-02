@@ -8,7 +8,7 @@ $border-color: #ddd;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
   position: sticky;
   top: 0;
-  z-index: 1000;
+  z-index: 999;
   
   width: 100%;
 
@@ -102,26 +102,27 @@ $border-color: #ddd;
         list-style: none;
         display: flex;
         align-items: center;
-        justify-content: space-between;
-        gap: 10px;
+        justify-content: space-around;
+        gap: 5px;
         margin: 0;
         padding: 0;
         flex: 1;
-        flex-wrap: wrap;
+        flex-wrap: nowrap;
+        overflow: visible !important;
+
 
         li {
           position: relative;
           white-space: nowrap;
-          flex: 1;
+          flex: 0 1 auto;
           text-align: center;
-          min-width: fit-content;
 
           a {
             display: block;
-            padding: 8px 12px;
+            padding: 8px 8px;
             color: $text-color;
-            font-weight: 700;
-            font-size: 16px;
+            font-weight: 800;
+            font-size: 15px;
             text-decoration: none;
             transition: all 0.3s ease;
 
@@ -151,7 +152,7 @@ $border-color: #ddd;
               min-width: 220px;
               border-radius: 4px;
               margin: 0;
-              z-index: 1001;
+              z-index: 10000;
               animation: slideDown 0.2s ease;
 
               li {
@@ -206,14 +207,29 @@ $border-color: #ddd;
 }
 
 // Mobile responsive
+@media (max-width: 1400px) {
+  #header-wrap {
+    .nav-container {
+      padding: 15px 10px;
+
+      nav .nav-list li a {
+        padding: 8px 6px;
+        font-size: 13px;
+        font-weight: 800;
+      }
+    }
+  }
+}
+
 @media (max-width: 1200px) {
   #header-wrap {
     .nav-container {
-      padding: 15px 15px;
+      padding: 12px 10px;
 
       nav .nav-list li a {
-        padding: 15px 8px;
-        font-size: 14px;
+        padding: 8px 5px;
+        font-size: 12px;
+        font-weight: 800;
       }
     }
   }
