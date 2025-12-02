@@ -72,7 +72,7 @@ function AuthorGuidelines() {
                 </p>
               </div>
 
-              {/* Instruction for Manuscript Submission */}
+              {/* Instruction for Manuscript Submission
               <div className="content-section mb-5">
                 <h2 className="section-heading">Instruction for Manuscript Submission</h2>
                 <p>
@@ -86,7 +86,7 @@ function AuthorGuidelines() {
                 <p>
                   Acknowledgement: The Microsoft CMT service is used for managing the peer-reviewing process for this conference. This service was provided for free by Microsoft and they bore all expenses, including costs for Azure cloud services as well as for software development and support.
                 </p>
-              </div>
+              </div> */}
 
               {/* Important Dates */}
               <div className="content-section">

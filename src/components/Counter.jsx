@@ -40,25 +40,25 @@ function Counter() {
         <div className="row">
           <div className="col-lg-3 col-md-6 col-sm-12 counter-item">
             <div className="counter">
-              <h3 className="counter-value">{counts.speakers}+</h3>
+              <h3 className="counter-value">-</h3>
               <p className="counter-label">Speakers</p>
             </div>
           </div>
           <div className="col-lg-3 col-md-6 col-sm-12 counter-item">
             <div className="counter">
-              <h3 className="counter-value">{counts.submissions}+</h3>
+              <h3 className="counter-value">-</h3>
               <p className="counter-label">Submissions</p>
             </div>
           </div>
           <div className="col-lg-3 col-md-6 col-sm-12 counter-item">
             <div className="counter">
-              <h3 className="counter-value">{counts.participants}+</h3>
+              <h3 className="counter-value">-</h3>
               <p className="counter-label">Participants</p>
             </div>
           </div>
           <div className="col-lg-3 col-md-6 col-sm-12 counter-item">
             <div className="counter">
-              <h3 className="counter-value">{counts.days}</h3>
+              <h3 className="counter-value">-</h3>
               <p className="counter-label">Days</p>
             </div>
           </div>

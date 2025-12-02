@@ -14,16 +14,19 @@ function Committee() {
       ]
     },
     {
-      title: 'General Chair',
+      title: 'General Chairs',
       members: [
         { name: 'Prof. Santanu Choudhury', position: 'IIT Delhi', image: '/assets/img/Prof. Santanu Choudhury, IIT Delhi.jpg' },
-        { name: 'Prof. Anoop Namboodiri', position: 'IIIT Hyderabad', image: '/assets/img/Prof. Anoop Namboodiri, IIIT Hyderabad.jpg' },
-        { name: 'Prof. Dipti Prasad Mukherjee', position: 'ISI Kolkata', image: '/assets/img/Prof. Dipti Prasad Mukherjee, ISI Kolkata.jpg' }
+        { name: 'Prof. Dipti Prasad Mukherjee', position: 'ISI Kolkata', image: '/assets/img/Prof. Dipti Prasad Mukherjee, ISI Kolkata.jpg' },
+        { name: 'Prof. Anoop Namboodiri', position: 'IIIT Hyderabad', image: '/assets/img/Prof. Anoop Namboodiri, IIIT Hyderabad.jpg' }
       ]
     },
     {
       title: 'Program Chairs',
       members: [
+        { name: 'Dr. Prithwijit Guha', position: 'IIT Guwahati', image: '/assets/img/Dr. Aditya Nigam, IIT Mandi.jpg' },
+        { name: 'Dr. Aditya Nigam', position: 'IIT Mandi', image: '/assets/img/Dr. Aditya Nigam, IIT Mandi.jpg' },
+        { name: 'Dr. Praveen Kumar', position: 'NIT Nagpur', image: '/assets/img/Dr. Praveen Kumar, NIT Nagpur.jpg' },
         { name: 'Dr. Neeta Nain', position: 'MNIT Jaipur', image: '/assets/img/Dr. Neeta Nain, MNIT Jaipur.webp' },
         { name: 'Dr. Preety Singh', position: 'LNMIIT Jaipur', image: '/assets/img/Dr. Preety Singh, LNMIIT Jaipur.jpg' }
       ]
@@ -31,30 +34,31 @@ function Committee() {
     {
       title: 'Tutorial Chairs',
       members: [
-        { name: 'Dr. Deepak Ranjan Nayak', position: 'MNIT Jaipur', image: '/assets/img/Dr. Deepak Ranjan Nayak, MNIT Jaipur.webp' },
-        { name: 'Dr. Upendra Pratap Singh', position: 'LNMIIT Jaipur', image: '/assets/img/Dr. Upendra Pratap Singh, LNMIIT Jaipur.jpg' },
+        { name: 'Dr. Zahid Akhtar', position: 'State University of New York Polytechnic Institute', image: '/assets/img/Dr. Zahid Akhtar, State University of New York Polytechnic Institute.webp' },
         { name: 'Dr. Badri Narayan Subudhi', position: 'IIT Jammu', image: '/assets/img/Dr. Badri Narayan Subudhi, IIT Jammu.jpg' },
-        { name: 'Dr. Satish Singh', position: 'IIIT Allahabad', image: '/assets/img/Dr. Satish Singh, IIIT Allahabad.png' }
+        { name: 'Dr. Satish Singh', position: 'IIIT Allahabad', image: '/assets/img/Dr. Satish Singh, IIIT Allahabad.png' },
+        { name: 'Dr. Deepak Ranjan Nayak', position: 'MNIT Jaipur', image: '/assets/img/Dr. Deepak Ranjan Nayak, MNIT Jaipur.webp' },
+        { name: 'Dr. Upendra Pratap Singh', position: 'LNMIIT Jaipur', image: '/assets/img/Dr. Upendra Pratap Singh, LNMIIT Jaipur.jpg' }
       ]
     },
     {
       title: 'Workshop Chairs',
       members: [
+        { name: 'Prof. Aparajita Ojha', position: 'IIITDM Jabalpur', image: '/assets/img/Prof. Aparajita Ojha, IIITDM, Jabalpur.jpg' },
+        { name: 'Dr. Indra Deep Mastan', position: 'IIT BHU', image: '/assets/img/Dr. Indra Deep Mastan, IIT BHU.jpg' },
         { name: 'Dr. Satyendra Singh Chouhan', position: 'MNIT Jaipur', image: '/assets/img/Dr. Satyendra Singh Chouhan, MNIT Jaipur.png' },
         { name: 'Dr. Ankit Jha', position: 'LNMIIT Jaipur', image: '/assets/img/Dr. Ankit Jha, LNMIIT Jaipur.jpg' },
-        { name: 'Dr. Anukriti Bansal', position: 'LNMIIT Jaipur', image: '/assets/img/Dr. Anukriti Bansal, LNMIIT Jaipur.jpg' },
-        { name: 'Prof. Aparajita Ojha', position: 'IIITDM Jabalpur', image: '/assets/img/Prof. Aparajita Ojha, IIITDM, Jabalpur.jpg' },
-        { name: 'Dr. Indra Deep Mastan', position: 'IIT BHU', image: '/assets/img/Dr. Indra Deep Mastan, IIT BHU.jpg' }
+        { name: 'Dr. Anukriti Bansal', position: 'LNMIIT Jaipur', image: '/assets/img/Dr. Anukriti Bansal, LNMIIT Jaipur.jpg' }
       ]
     },
     {
       title: 'Challenge Chairs',
       members: [
-        { name: 'Dr. Mahipal Jadeja', position: 'MNIT Jaipur', image: '/assets/img/Dr. Mahipal Jadeja, MNIT Jaipur.png' },
-        { name: 'Dr. Aloke Datta', position: 'LNMIIT Jaipur', image: '/assets/img/Dr. Aloke Datta, LNMIIT Jaipur.webp' },
         { name: 'Dr. Sunny Manchanda', position: 'DRDO', image: '/assets/img/Dr. Sunny Manchanda, DRDO.jpg' },
         { name: 'Prof. Uma Satya Ranjan', position: 'IIT Jammu', image: '/assets/img/Prof. Uma Satya Ranjan, IIT Jammu.jpeg' },
-        { name: 'Dr. Suman Kundu', position: 'IIT Jodhpur', image: '/assets/img/Dr. Suman Kundu, IIT Jodhpur.jpg' }
+        { name: 'Dr. Suman Kundu', position: 'IIT Jodhpur', image: '/assets/img/Dr. Suman Kundu, IIT Jodhpur.jpg' },
+        { name: 'Dr. Mahipal Jadeja', position: 'MNIT Jaipur', image: '/assets/img/Dr. Mahipal Jadeja, MNIT Jaipur.png' },
+        { name: 'Dr. Aloke Datta', position: 'LNMIIT Jaipur', image: '/assets/img/Dr. Aloke Datta, LNMIIT Jaipur.webp' }
       ]
     },
     {
@@ -90,7 +94,8 @@ function Committee() {
       title: 'Local Organizing Chairs',
       members: [
         { name: 'Dr. Rajbir Kaur', position: 'LNMIIT Jaipur', image: '/assets/img/Dr. Rajbir Kaur, LNMIIT Jaipur.jpg' },
-        { name: 'Dr. Nitesh Pradhan', position: 'LNMIIT Jaipur', image: '/assets/img/Dr. Nitesh Pradhan, LNMIIT Jaipur.jpg' }
+        { name: 'Dr. Nitesh Pradhan', position: 'LNMIIT Jaipur', image: '/assets/img/Dr. Nitesh Pradhan, LNMIIT Jaipur.jpg' },
+         {name: 'Dr. Kuldeep Singh', position: 'MNIT Jaipur', image: '/assets/img/Dr. Kuldeep Singh, MNIT Jaipur.png' }
       ]
     }
 

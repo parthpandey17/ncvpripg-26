@@ -31,7 +31,7 @@ function ImportantDatesSection() {
   }, []);
 
   return (
-    <section className="important-dates section-padding">
+    <section id="important-dates" className="important-dates section-padding">
       <div className="container">
         <div className="row">
           <div className="col-md-12">

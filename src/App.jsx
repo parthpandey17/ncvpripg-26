@@ -1,5 +1,5 @@
-import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import React, { useEffect } from 'react';
+import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
 import Navbar from './components/Layout/Navbar';
 import Footer from './components/Layout/Footer';
 import Home from './pages/Home';
@@ -17,6 +17,7 @@ import CallForTutorials from './pages/CallForTutorials';
 import CallForWorkshops from './pages/CallForWorkshops';
 import CallForSponsorship from './pages/CallForSponsorship';
 import CallForAbstract from './pages/CallForAbstract';
+import CallForPapers from './pages/CallForPapers';
 import Registration from './pages/Registration';
 import TravelInfo from './pages/TravelInfo';
 import Accommodation from './pages/Accommodation';
@@ -29,9 +30,23 @@ import Day3 from './pages/Day3';
 import AuthorGuidelines from './pages/AuthorGuidelines';
 import AcceptedAbstracts from './pages/AcceptedAbstracts';
 
+function ScrollToTop() {
+  const { pathname, hash } = useLocation();
+
+  useEffect(() => {
+    if (!hash) {
+      document.documentElement.scrollTop = 0;
+      document.body.scrollTop = 0;
+    }
+  }, [pathname, hash]);
+
+  return null;
+}
+
 function App() {
   return (
     <Router>
+      <ScrollToTop />
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
@@ -60,6 +75,7 @@ function App() {
         <Route path="/day3" element={<Day3 />} />
         <Route path="/author-guidelines" element={<AuthorGuidelines />} />
         <Route path="/accepted-abstracts" element={<AcceptedAbstracts />} />
+        <Route path="/call-for-papers" element={<CallForPapers />} />
       </Routes>
       <Footer />
     </Router>

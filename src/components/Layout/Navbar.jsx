@@ -135,6 +135,11 @@ function Navbar() {
               <ul className={`navbar-dropdown ${openDropdown === 'calls' ? 'show' : ''}`}>
                 
                 <li className="clickable">
+                <li className="clickable">
+                  <Link to="/call-for-papers" onClick={handleLinkClick}>
+                    Call for Papers
+                  </Link>
+                </li>
                   <Link to="/call-for-challenges" onClick={handleLinkClick}>
                     Call for Challenges
                   </Link>
@@ -159,11 +164,7 @@ function Navbar() {
                     Call for Abstracts
                   </Link>
                 </li>
-                <li className="clickable">
-                  <a href="/CFP_NCVPRIPG2026.pdf" target="_blank" rel="noopener noreferrer" onClick={handleLinkClick}>
-                    CFP
-                  </a>
-                </li>
+                
               </ul>
             </li>
 
@@ -233,6 +234,20 @@ function Navbar() {
                   <Link to="/program" onClick={handleLinkClick}>
                     Schedule
                   </Link>
+            </li>
+
+            <li className="clickable">
+              <Link 
+                to="/"
+                onClick={(e) => {
+                  closeMenu();
+                  setTimeout(() => {
+                    document.getElementById('important-dates')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                  }, 100);
+                }}
+              >
+                Important Dates
+              </Link>
             </li>
 
             <li className="clickable">
