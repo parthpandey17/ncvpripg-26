@@ -61,8 +61,8 @@ function CallForTutorials() {
                 <strong>Important Dates</strong>
               </h5>
               <ul style={{marginLeft: '20px'}}>
-                <li style={{marginBottom: '10px'}}>Deadline for submitting proposals: <strong>April 07, 2026</strong></li>
-                <li style={{marginBottom: '10px'}}>Notification of accepted proposals: <strong>April 15, 2026</strong></li>
+                <li style={{marginBottom: '10px'}}>Deadline for submitting proposals: <strong>April 10, 2026</strong></li>
+                <li style={{marginBottom: '10px'}}>Notification of accepted proposals: <strong>June 10, 2026</strong></li>
               </ul>
             </div>
           </div>

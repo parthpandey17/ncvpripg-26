@@ -110,21 +110,7 @@ function Navbar() {
                   </Link>
                 </li>
                  
-                <li className="clickable">
-                  <Link to="/invited-talks" onClick={handleLinkClick}>
-                    Invited Talks
-                  </Link>
-                </li>
-                <li className="clickable">
-                  <Link to="/industry" onClick={handleLinkClick}>
-                    Industry Speakers
-                  </Link>
-                </li>
-                <li className="clickable">
-                  <Link to="/srs" onClick={handleLinkClick}>
-                    Student Research Symposium
-                  </Link>
-                </li>
+                
               </ul>
             </li>
 
@@ -133,13 +119,12 @@ function Navbar() {
                 onMouseLeave={handleDropdownLeave}>
               <a href="#!" onClick={(e) => { e.preventDefault(); handleDropdownClick('calls'); }}>Calls</a>
               <ul className={`navbar-dropdown ${openDropdown === 'calls' ? 'show' : ''}`}>
-                
-                <li className="clickable">
                 <li className="clickable">
                   <Link to="/call-for-papers" onClick={handleLinkClick}>
                     Call for Papers
                   </Link>
                 </li>
+                <li className="clickable">
                   <Link to="/call-for-challenges" onClick={handleLinkClick}>
                     Call for Challenges
                   </Link>
@@ -164,7 +149,11 @@ function Navbar() {
                     Call for Abstracts
                   </Link>
                 </li>
-                
+                <li className="clickable">
+                  <a href="/CFP_NCVPRIPG2026.pdf" target="_blank" rel="noopener noreferrer" onClick={handleLinkClick}>
+                    CFP
+                  </a>
+                </li>
               </ul>
             </li>
 

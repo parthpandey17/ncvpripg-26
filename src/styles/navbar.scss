@@ -160,6 +160,7 @@ $border-color: #ddd;
               li {
                 margin: 0;
                 transition: background 0.2s ease;
+                text-align: left;
 
                 a {
                   display: block;
@@ -167,6 +168,7 @@ $border-color: #ddd;
                   color: $text-color;
                   text-decoration: none;
                   white-space: nowrap;
+                  text-align: left;
 
                   &:hover {
                     background: #f5f5f5;

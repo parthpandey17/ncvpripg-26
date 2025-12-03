@@ -34,8 +34,8 @@ function CallForAbstract() {
                     </p>
                     <p style={{fontWeight: 'bold', marginTop: '20px'}}>Important Dates:</p>
                     <ul style={{marginLeft: '20px'}}>
-                      <li>Abstract submission: <s>May 30, 2026</s> June 14, 2026</li>
-                      <li>Notification to selected candidates: <s>June 15, 2026</s> June 30, 2026</li>
+                      <li>Abstract submission: April 10, 2026</li>
+                      <li>Notification to selected candidates: June 10, 2026</li>
                       <li>Actual Event: July 22-24, 2026</li>
                     </ul>
                     <br />

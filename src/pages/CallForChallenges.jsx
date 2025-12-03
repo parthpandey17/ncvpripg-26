@@ -31,13 +31,13 @@ function CallForChallenges() {
   ];
 
   const importantDates = [
-    { event: 'Challenges Proposal Submission Deadline', date: 'April 07, 2026' },
-    { event: 'Notification of Selection', date: 'April 15, 2026' },
-    { event: 'Web Posting of Challenges', date: 'April 30, 2026' },
-    { event: 'Opening Date for Submission to Challenges', date: 'May 10, 2026' },
-    { event: 'Closing Date for Submission to Challenges', date: 'June 5, 2026' },
-    { event: 'Announcement of Challenge Winners', date: 'July 1, 2026' },
-    { event: 'Registration Deadline for Challenge Attendees', date: 'July 1, 2026' }
+    { event: 'Challenges Proposal Submission Deadline', date: 'TBD' },
+    { event: 'Notification of Selection', date: 'TBD' },
+    { event: 'Web Posting of Challenges', date: 'TBD' },
+    { event: 'Opening Date for Submission to Challenges', date: 'TBD' },
+    { event: 'Closing Date for Submission to Challenges', date: 'TBD' },
+    { event: 'Announcement of Challenge Winners', date: 'TBD' },
+    { event: 'Registration Deadline for Challenge Attendees', date: 'TBD' }
   ];
 
   return (

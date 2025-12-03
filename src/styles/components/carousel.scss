@@ -59,7 +59,7 @@ $primary-color: #70b60a;
     }
 
     .carousel-title {
-      font-size: 65px;
+      font-size: 60px;
       font-weight: 800;
       margin-bottom: 20px;
       color: white;
@@ -90,8 +90,7 @@ $primary-color: #70b60a;
     }
 
     .carousel-dates,
-    .carousel-location,
-    .carousel-description {
+    .carousel-location {
       font-size: 22px;
       margin-bottom: 15px;
       color: white;
@@ -109,6 +108,24 @@ $primary-color: #70b60a;
         white-space: normal;
       }
     }
+  }
+  .carousel-description{
+    font-size: 26px;
+      margin-bottom: 15px;
+      color: white;
+      margin: 0.25rem 0.5;
+      font-weight: 600;
+      white-space: nowrap;
+
+      @media (max-width: 768px) {
+        font-size: 14px;
+        white-space: normal;
+      }
+
+      @media (max-width: 576px) {
+        font-size: 12px;
+        white-space: normal;
+      }
   }
 
     .carousel-divider {

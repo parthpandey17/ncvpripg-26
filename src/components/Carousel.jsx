@@ -6,29 +6,35 @@ function Carousel() {
 
   const slides = [
     {
-      image: '/assets/img/background/LNMIIT_Jaipur6.jpg',
-      title: 'NCVPRIPG-2026',
+      image: '/assets/img/background/LNMIIT_Jaipur5.jpg',
+      description: 'The 11th National Conference on Computer Vision, Pattern Recognition, Image Processing and Graphics',
+      title: 'NCVPRIPG 2026',
       dates: "22-24 July, 2026",
       location: 'The LNM Institute Of Information Technology, Jaipur',
-      location2:'(Jointly organized with MNIT Jaipur)',
-
-      description: 'The 11th National Conference on Computer Vision, Pattern Recognition, Image Processing and Graphics'
+      location2:'(Jointly organized with MNIT Jaipur)'
     },
     {
-      image: '/assets/img/background/LNMIIT_Jaipur5.jpg',
-      title: 'NCVPRIPG-2026',
+      image: '/assets/img/background/LNMIIT_Jaipur4.jpg',
+      description: 'The 11th National Conference on Computer Vision, Pattern Recognition, Image Processing and Graphics',
+      title: 'NCVPRIPG 2026',
       dates: "22-24 July, 2026",
       location: 'The LNM Institute Of Information Technology, Jaipur',
-      location2:'(Jointly organized with MNIT Jaipur)',
-      
-      description: 'The 11th National Conference on Computer Vision, Pattern Recognition, Image Processing and Graphics'
+      location2:'(Jointly organized with MNIT Jaipur)'
+    },
+    {
+      image: '/assets/img/background/LNMIIT_Jaipur6.jpg',
+      description: 'The 11th National Conference on Computer Vision, Pattern Recognition, Image Processing and Graphics',
+      title: 'NCVPRIPG 2026',
+      dates: "22-24 July, 2026",
+      location: 'The LNM Institute Of Information Technology, Jaipur',
+      location2:'(Jointly organized with MNIT Jaipur)'
     }
   ];
 
   useEffect(() => {
     const timer = setInterval(() => {
       setActiveSlide((prev) => (prev + 1) % slides.length);
-    }, 5500);
+    }, 4000);
     return () => clearInterval(timer);
   }, [slides.length]);
 
@@ -50,6 +56,9 @@ function Carousel() {
             style={{ backgroundImage: `url(${slide.image})` }}
           >
             <div className="carousel-caption">
+            <p className="carousel-description animate__animated animate__fadeInDown">
+ The 11<sup>th</sup> National Conference on Computer Vision, Pattern Recognition, Image Processing and Graphics
+</p>
               <h1 className="carousel-title animate__animated animate__fadeInDown">
                 {slide.title}
               </h1>
@@ -63,9 +72,7 @@ function Carousel() {
               <p className="carousel-location animate__animated animate__fadeInDown">
                 {slide.location2}
               </p>
-              <p className="carousel-description animate__animated animate__fadeInDown">
- The 11<sup>th</sup> National Conference on Computer Vision, Pattern Recognition, Image Processing and Graphics
-</p>
+              
               <div className="carousel-divider" aria-hidden="true" />
               <div className="carousel-logos">
                 {[
