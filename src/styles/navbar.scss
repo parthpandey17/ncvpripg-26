@@ -154,6 +154,8 @@ $border-color: #ddd;
               margin: 0;
               z-index: 10000;
               animation: slideDown 0.2s ease;
+              text-align: left;
+            
 
               li {
                 margin: 0;
@@ -214,8 +216,7 @@ $border-color: #ddd;
 
       nav .nav-list li a {
         padding: 8px 6px;
-        font-size: 13px;
-        font-weight: 800;
+        font-size: 12px;
       }
     }
   }
@@ -228,8 +229,7 @@ $border-color: #ddd;
 
       nav .nav-list li a {
         padding: 8px 5px;
-        font-size: 12px;
-        font-weight: 800;
+        font-size: 11px;
       }
     }
   }

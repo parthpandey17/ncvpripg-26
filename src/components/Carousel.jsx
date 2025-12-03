@@ -9,7 +9,7 @@ function Carousel() {
       image: '/assets/img/background/LNMIIT_Jaipur6.jpg',
       title: 'NCVPRIPG-2026',
       dates: "22-24 July, 2026",
-      location: 'The LNM Institute Of Information Technology - Jaipur',
+      location: 'The LNM Institute Of Information Technology, Jaipur',
       location2:'(Jointly organized with MNIT Jaipur)',
 
       description: 'The 11th National Conference on Computer Vision, Pattern Recognition, Image Processing and Graphics'
@@ -18,7 +18,7 @@ function Carousel() {
       image: '/assets/img/background/LNMIIT_Jaipur5.jpg',
       title: 'NCVPRIPG-2026',
       dates: "22-24 July, 2026",
-      location: 'The LNM Institute Of Information Technology - Jaipur',
+      location: 'The LNM Institute Of Information Technology, Jaipur',
       location2:'(Jointly organized with MNIT Jaipur)',
       
       description: 'The 11th National Conference on Computer Vision, Pattern Recognition, Image Processing and Graphics'
@@ -54,8 +54,9 @@ function Carousel() {
                 {slide.title}
               </h1>
               <p className="carousel-dates animate__animated animate__fadeInDown">
-                {slide.dates}
-              </p>
+  22<sup>nd</sup> – 24<sup>th</sup> July, 2026
+</p>
+
               <p className="carousel-location animate__animated animate__fadeInDown">
                 {slide.location}
               </p>
@@ -63,8 +64,8 @@ function Carousel() {
                 {slide.location2}
               </p>
               <p className="carousel-description animate__animated animate__fadeInDown">
-                {slide.description}
-              </p>
+ The 11<sup>th</sup> National Conference on Computer Vision, Pattern Recognition, Image Processing and Graphics
+</p>
               <div className="carousel-divider" aria-hidden="true" />
               <div className="carousel-logos">
                 {[

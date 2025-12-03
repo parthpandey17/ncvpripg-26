@@ -73,6 +73,22 @@ $primary-color: #70b60a;
       }
     }
 
+    .carousel-subtitle {
+      font-size: 22px;
+      margin-bottom: 15px;
+      color: white;
+      margin: 0.25rem 0;
+      font-weight: 600;
+
+      @media (max-width: 768px) {
+        font-size: 14px;
+      }
+
+      @media (max-width: 576px) {
+        font-size: 12px;
+      }
+    }
+
     .carousel-dates,
     .carousel-location,
     .carousel-description {
@@ -108,9 +124,9 @@ $primary-color: #70b60a;
       display: flex;
       justify-content: center;
       align-items: center;
-      gap: 14px;
+      gap: 50px;
       flex-wrap: wrap;
-      margin-top: 14px;
+      margin-top: 20px;
 
       .carousel-logo {
         width: 90px;
@@ -119,10 +135,12 @@ $primary-color: #70b60a;
 
         @media (max-width: 768px) {
           width: 70px;
+          gap: 30px;
         }
 
         @media (max-width: 576px) {
           width: 50px;
+          gap: 20px;
         }
       }
     }

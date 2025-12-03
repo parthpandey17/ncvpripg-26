@@ -9,7 +9,7 @@ function About() {
           <h2 className="section-title section-title-left">About NCVPRIPG</h2>
           <div className="about-text">
             <p>
-              The Eleventh National Conference on Computer Vision, Pattern Recognition, Image Processing, and Graphics (NCVPRIPG 2026) will be held at The LNM Institute of
+              The 11th National Conference on Computer Vision, Pattern Recognition, Image Processing, and Graphics (NCVPRIPG 2026) will be held at The LNM Institute of
 Information Technology, Jaipur, India (jointly organized with
 MNIT Jaipur) from July 22 -24, 2026.
 . NCVPRIPG aims to bring together researchers and practitioners from the allied areas of computer vision, graphics, image processing, and pattern recognition, in order to promote community-wide discussions of ideas that will influence and foster continued research in the field.

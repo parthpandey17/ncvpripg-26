@@ -71,7 +71,7 @@ function ImportantDatesSection() {
                   <td id="registrationCameraReady"></td>
                 </tr>
 
-                {/* Everything else "To be decided" */}
+                {/* Everything else "To be decided"
                 <tr><td colSpan="3"><strong>Other Deadlines</strong></td></tr>
 
                 <tr><td>Workshops</td><td colSpan="2">To be decided</td></tr>
@@ -80,7 +80,7 @@ function ImportantDatesSection() {
                 <tr><td>Registration Deadline</td><td colSpan="2">To be decided</td></tr>
                 <tr><td>Conference Schedule</td><td colSpan="2">To be decided</td></tr>
                 <tr><td>Camera-ready Guidelines</td><td colSpan="2">To be decided</td></tr>
-                <tr><td>Author Notification</td><td colSpan="2">To be decided</td></tr>
+                <tr><td>Author Notification</td><td colSpan="2">To be decided</td></tr> */}
 
               </tbody>
             </table>
