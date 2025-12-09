@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import PageCarousel from '../components/PageCarousel';
 
 function Committee() {
   useEffect(() => {
@@ -103,6 +104,7 @@ function Committee() {
 
   return (
     <div className="page-container">
+      <PageCarousel />
       <section className="section-padding">
         <div className="container">
           <div className="row">

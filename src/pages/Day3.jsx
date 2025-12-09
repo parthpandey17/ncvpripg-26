@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import PageCarousel from '../components/PageCarousel';
 
 function Day3() {
   useEffect(() => {
@@ -20,6 +21,7 @@ function Day3() {
 
   return (
     <div className="page-container">
+      <PageCarousel />
       <section className="section-padding">
         <div className="container">
           <div className="row">

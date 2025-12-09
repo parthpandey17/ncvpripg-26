@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import PageCarousel from '../components/PageCarousel';
 
 function Registration() {
   useEffect(() => {
@@ -7,6 +8,7 @@ function Registration() {
 
   return (
     <div className="page-container">
+      <PageCarousel />
       <section className="section-padding">
         <div className="container">
           <div className="row">
@@ -16,16 +18,71 @@ function Registration() {
               </div>
 
               <div className="row justify-content-center">
-                <div className="col-lg-10 col-md-12 text-center">
-                  <div style={{ padding: '60px 20px', background: '#f8f9fa', borderRadius: '8px', marginTop: '40px' }}>
-                    <i className="lni lni-construction" style={{ fontSize: '64px', color: '#70b60a', marginBottom: '20px', display: 'block' }}></i>
-                    <h2 style={{ color: '#333', marginBottom: '20px' }}>Under Construction</h2>
-                    <p style={{ fontSize: '18px', color: '#666', lineHeight: '1.8' }}>
-                      Registration details will be available soon.
+                <div className="col-lg-8 col-md-10">
+                  <div className="alert alert-info text-center" role="alert" style={{
+                    backgroundColor: '#f8f9fa',
+                    border: '2px solid #70b60a',
+                    borderRadius: '8px',
+                    padding: '40px 20px',
+                    fontSize: '20px',
+                    color: '#333'
+                  }}>
+                    <i className="lni-construction" style={{fontSize: '48px', color: '#70b60a', display: 'block', marginBottom: '20px'}}></i>
+                    <strong>Under Construction</strong>
+                    <p style={{marginTop: '15px', fontSize: '16px', marginBottom: '0'}}>
+                      Registration page will be updated here soon.
                     </p>
-                    <p style={{ marginTop: '30px', color: '#666' }}>
-                      For any queries, please contact: <a href="mailto:ncvpripg2026@lnmiit.ac.in">ncvpripg2026@lnmiit.ac.in</a>
+                  </div>
+                </div>
+              </div>
+
+              <div className="row justify-content-center">
+                <div className="col-lg-10 col-md-12">
+                  <div className="registration-info">
+                    <p style={{textAlign: 'justify', lineHeight: '1.8', display: 'none'}}>
+                      The Online Registration has been closed. For the onsite registration rates and link, please drop an email to 
+                      <strong> ncvpripg2026@lnmiit.ac.in</strong>
+                      <br />
+                      <br />
+                      Due to multiple student requests, we have extended the Early Bird deadline to <strong>July 7, 2026</strong>.
+                      <br />
+                      <br />
+                      <strong>
+                        The registration includes entry to all Technical Sessions, a Conference Kit, refreshments and Gala Dinner served during the conference days.
+                      </strong>
+                      <br />
+                      <br />
+                      An invoice for the registration fee payment will be generated for every registration.
+                      <br />
+                      <br />
+                      Certificates will be provided to all registered participants.
+                      <br />
+                      <br />
+                      For onsite registration and rates, as well as additional information and inquiries, please send an email to 
+                      <strong> ncvpripg2026@lnmiit.ac.in</strong>.
                     </p>
+
+                    {/* <div className="mt-5 pt-5 border-top">
+                      <h3 className="mb-4">Registration Instructions:</h3>
+                      <ol style={{lineHeight: '2'}}>
+                        <li>Click on the "Register Now" button to access the online registration portal.</li>
+                        <li>Fill out the registration form with accurate details.</li>
+                        <li>Choose the appropriate registration type based on your affiliation and status.</li>
+                        <li>Upload proof of registration type (Scanned copy of your student/employee ID card)</li>
+                        <li>After filling all the mandatory fields, click 'Register' to generate your Registration ID and Password. These details will be emailed to your registered email ID.</li>
+                        <li>To complete the registration process, proceed to Pay Registration Fee link after obtaining your Registration ID and Password.</li>
+                        <li>The fee details will be displayed based on the registration type. Complete the online payment.</li>
+                      </ol>
+                    </div> */}
+
+                    {/* <div className="mt-5 text-center">
+                      <p className="text-muted mb-3">For more information and support:</p>
+                      <h5>
+                        <a href="mailto:ncvpripg2026@lnmiit.ac.in" className="btn btn-primary">
+                          <i className="fas fa-envelope"></i> Contact Registration Support
+                        </a>
+                      </h5>
+                    </div> */}
                   </div>
                 </div>
               </div>

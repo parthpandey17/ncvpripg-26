@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import PageCarousel from '../components/PageCarousel';
 
 function CallForSponsorship() {
   useEffect(() => {
@@ -16,6 +17,7 @@ function CallForSponsorship() {
 
   return (
     <div className="page-container">
+      <PageCarousel />
       <section className="section-padding">
         <div className="container">
           <div className="row Callsection">
@@ -29,7 +31,7 @@ function CallForSponsorship() {
           <div className="row justify-content-center mb-5">
             <div className="col-lg-10 col-md-12">
               <p style={{textAlign: 'justify', marginBottom: '20px'}}>
-                LNMIIT Jaipur in collaboration with the Indian Unit for Pattern Recognition and Artificial Intelligence (IUPRAI) is organizing the 11th National Conference on Computer Vision, Pattern Recognition, Image Processing and Graphics (NCVPRIPG 2026). NCVPRIPG is India's premier national conference focused on Computer Vision, Pattern Recognition, Image Processing and Graphics. Starting in 2007, it was a biennial national conference till 2019, providing a platform for the presentation of technological advances and research findings in these areas.
+                LNMIIT Jaipur in collaboration with the Indian Unit for Pattern Recognition and Artificial Intelligence (IUPRAI) is organizing the ninth National Conference on Computer Vision, Pattern Recognition, Image Processing and Graphics (NCVPRIPG 2026). The NCVPRIPG is India's premier national conference focused on Computer Vision, Pattern Recognition, Image Processing and Graphics. Starting in 2007, it was a biennial national conference till 2019, providing a platform for the presentation of technological advances and research findings in these areas.
               </p>
               <p style={{textAlign: 'justify', marginBottom: '20px'}}>
                 The main objective of the NCVPRIPG conference is to promote the students and research community of computer vision, pattern recognition, image processing and graphics in India and abroad. It also enables connecting academic researchers and students with the industry experts for coming up with industry-academia collaborations for developing efficient solutions for solving practical problems and challenging research problems in the domain of the conference.

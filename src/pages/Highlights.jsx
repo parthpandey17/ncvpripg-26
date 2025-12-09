@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import PageCarousel from '../components/PageCarousel';
 
 function Highlights() {
   useEffect(() => {
@@ -17,6 +18,7 @@ function Highlights() {
 
   return (
     <div className="page-container">
+      <PageCarousel />
       <section className="section-padding">
         <div className="container">
           <div className="row">

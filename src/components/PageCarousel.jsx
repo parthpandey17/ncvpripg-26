@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import '../styles/components/carousel.scss';
+import '../styles/components/page-carousel.scss';
 
-function Carousel() {
+function PageCarousel() {
   const [activeSlide, setActiveSlide] = useState(0);
 
   const slides = [
@@ -15,7 +15,6 @@ function Carousel() {
       location2:'Jointly with MNIT Jaipur',
       association:'In association with Indian Unit for Pattern Recognition and Artificial Intelligence (IUPRAI)'
     },
-    
     {
       image: '/assets/img/background/LNMIIT_Jaipur6.jpg',
       description: 'The 11th National Conference on Computer Vision, Pattern Recognition, Image Processing and Graphics',
@@ -44,40 +43,39 @@ function Carousel() {
   };
 
   return (
-    <div id="conferenceCarousel" className="carousel-container">
-      <div className="carousel-inner">
+    <div className="page-carousel-container">
+      <div className="page-carousel-inner">
         {slides.map((slide, index) => (
           <div
             key={index}
-            className={`carousel-item ${index === activeSlide ? 'active' : ''}`}
+            className={`page-carousel-item ${index === activeSlide ? 'active' : ''}`}
             style={{ backgroundImage: `url(${slide.image})` }}
           >
-            <div className="carousel-caption">
-            <p className="carousel-description animate__animated animate__fadeInDown">
- The 11<sup>th</sup> National Conference on Computer Vision, Pattern Recognition, Image Processing and Graphics
-</p>
-              <h1 className="carousel-title animate__animated animate__fadeInDown">
+            <div className="page-carousel-caption">
+              <p className="page-carousel-description animate__animated animate__fadeInDown">
+                The 11<sup>th</sup> National Conference on Computer Vision, Pattern Recognition, Image Processing and Graphics
+              </p>
+              <h1 className="page-carousel-title animate__animated animate__fadeInDown">
                 {slide.title}
               </h1>
-              <p className="carousel-dates animate__animated animate__fadeInDown">
-  22<sup>nd</sup> – 24<sup>th</sup> July, 2026
-</p>
-              <p className="carousel-location animate__animated animate__fadeInDown">
+              <p className="page-carousel-dates animate__animated animate__fadeInDown">
+                22<sup>nd</sup> – 24<sup>th</sup> July, 2026
+              </p>
+              <p className="page-carousel-location animate__animated animate__fadeInDown">
                 {slide.organised}
               </p>
-              <p className="carousel-location animate__animated animate__fadeInDown">
+              <p className="page-carousel-location animate__animated animate__fadeInDown">
                 {slide.location}
               </p>
-              <p className="carousel-location animate__animated animate__fadeInDown">
+              <p className="page-carousel-location animate__animated animate__fadeInDown">
                 {slide.location2}
-
               </p>
-              <p className="carousel-location animate__animated animate__fadeInDown">
+              <p className="page-carousel-location animate__animated animate__fadeInDown">
                 {slide.association}
               </p>
               
-              <div className="carousel-divider" aria-hidden="true" />
-              <div className="carousel-logos">
+              <div className="page-carousel-divider" aria-hidden="true" />
+              <div className="page-carousel-logos">
                 {[
                   'logo.png',
                   'lnm_logo.png',
@@ -87,7 +85,7 @@ function Carousel() {
                     key={idx}
                     src={`/assets/img/${logo}`}
                     alt={`Logo ${idx + 1}`}
-                    className="carousel-logo"
+                    className="page-carousel-logo"
                   />
                 ))}
               </div>
@@ -96,14 +94,14 @@ function Carousel() {
         ))}
       </div>
 
-      <button className="carousel-control prev" onClick={handlePrevious}>
+      <button className="page-carousel-control prev" onClick={handlePrevious}>
         &#10094;
       </button>
-      <button className="carousel-control next" onClick={handleNext}>
+      <button className="page-carousel-control next" onClick={handleNext}>
         &#10095;
       </button>
     </div>
   );
 }
 
-export default Carousel;
+export default PageCarousel;

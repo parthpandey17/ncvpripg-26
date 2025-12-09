@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import PageCarousel from '../components/PageCarousel';
 
 function AcceptedAbstracts() {
   useEffect(() => {
@@ -7,6 +8,7 @@ function AcceptedAbstracts() {
 
   return (
     <div className="page-container">
+      <PageCarousel />
       <section className="section-padding">
         <div className="container">
           <div className="row">

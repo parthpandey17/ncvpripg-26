@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import PageCarousel from '../components/PageCarousel';
 
 function PlacesToVisit() {
   useEffect(() => {
@@ -25,6 +26,7 @@ function PlacesToVisit() {
 
   return (
     <div className="page-container">
+      <PageCarousel />
       <section className="section-padding">
         <div className="container">
           <div className="section-title-header text-center mb-5">

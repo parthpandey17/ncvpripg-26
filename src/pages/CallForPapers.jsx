@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import PageCarousel from '../components/PageCarousel';
 
 function CallForPapers() {
   useEffect(() => {
@@ -7,7 +8,7 @@ function CallForPapers() {
 
   const topics = [
     'Segmentation',
-    'Texture, Shape, Colour',
+    'Texture, Shape, Color',
     'Restoration, Enhancement',
     'Visual Tracking',
     'Motion and Video Analysis',
@@ -18,31 +19,18 @@ function CallForPapers() {
     'Machine Learning for Vision and Graphics',
     'Medical Image Analysis',
     'Biometrics',
-    'Virtual/Augmented Reality',
+    'Virtual/Augmented reality',
     'Human-Computer Interaction',
     'Vision for Robotics and Autonomous Vehicles',
     'Computational Imaging',
     'Sensors and Modelling',
     'Vision-Based Graphics',
-    'Activity Recognition',
-    'Shape from X',
-    'Vision for Digital Heritage',
-    'Shape Analysis',
-    'Real-Time Graphics',
-    'Animation and Rendering',
-    'Scientific Visualization',
-    'Document Image Analysis',
-    'Remote Sensing',
-    'Scene Understanding',
-    'Statistical Methods & Optimization',
-    'Vision and Language',
-    'Vision and Graphics for Society',
-    'Applications of Vision and Graphics',
     'Underwater Image Processing'
   ];
 
   return (
     <div className="page-container">
+      <PageCarousel />
       <section className="section-padding">
         <div className="container">
           <div className="row">
@@ -55,23 +43,16 @@ function CallForPapers() {
               <div className="row justify-content-center mb-4">
                 <div className="col-lg-10 col-md-12">
                   <p style={{ textAlign: 'justify', lineHeight: 1.8 }}>
-                    We invite papers to be presented at NCVPRIPG-2026. The broad area of the submitted papers should be among the topics of interest to the computer vision, pattern recognition, image processing, and graphics communities. A well-designed paper should be broad enough to provide a solid introduction to the chosen area of interest, but it should also be deep enough on the most important topics. We expect these papers to attract a large and diverse audience consisting of undergraduate and graduate students as well as seasoned researchers and practitioners from both academia and industry.
+                    We invite papers to be organized as part of NCVPRIPG 2026 at LNMIIT, Jaipur, India. The broad area of the submitted papers should be among the topics of interest to the computer vision, pattern recognition, image processing, and graphics communities. A well-designed paper should be broad enough to provide a solid introduction to the chosen area of interest, but it should also be deep enough on the most important topics. We expect these papers to attract a large and diverse audience consisting of undergraduate and graduate students as well as seasoned researchers and practitioners from both academia and industry.
                   </p>
                 </div>
               </div>
 
               <div className="row justify-content-center">
                 <div className="col-lg-10 col-md-12">
-                  <ul style={{ 
-                    lineHeight: 2, 
-                    color: '#000', 
-                    columnCount: 2, 
-                    columnGap: '40px',
-                    listStylePosition: 'outside',
-                    paddingLeft: '20px'
-                  }}>
+                  <ul style={{ lineHeight: 2, textAlign: 'justify' }}>
                     {topics.map((t, i) => (
-                      <li key={i} style={{ color: '#000', breakInside: 'avoid' }}>{t}</li>
+                      <li key={i}>{t}</li>
                     ))}
                   </ul>
                 </div>
@@ -105,15 +86,16 @@ function CallForPapers() {
                     </p>
                   </div> */}
 
-                  <h3 className="mt-4" style={{ fontWeight: 700 }}>All papers must be submitted using the <a href="https://cmt3.research.microsoft.com/" target="_blank" rel="noopener noreferrer">CMT link</a></h3>
+                  {/* <h3 className="mt-4" style={{ fontWeight: 700 }}>All papers must be submitted using the <a href="https://cmt3.research.microsoft.com/" target="_blank" rel="noopener noreferrer">CMT link</a></h3> */}
 
                   <div className="mt-4">
-                    <h4 style={{ fontWeight: 700, color: '#000' }}>Important Dates:</h4>
-                    <ul style={{ color: '#000' }}>
-                      <li>Submissions Start: March 10, 2026</li>
-                      <li>Submission Ends: April 10, 2026</li>
-                      <li>Review Results: June 10, 2026</li>
-                      <li>Registration & Camera-Ready Submission: June 10, 2026 – July 05, 2026</li>
+                    <h4 style={{ fontWeight: 700 }}>Important Dates:</h4>
+                    <ul>
+                      <li>Submissions Starts: March 10, 2025</li>
+                      <li>Submission Ends: April 10, 2025</li>
+                      <li>Review Results: June 10, 2025</li>
+                      <li>Final Camera Ready Paper Submission Ends: July 05, 2025</li>
+                      <li>Registration Ends: July 05, 2025</li>
                     </ul>
                     <p style={{ marginTop: '10px' }}>For any queries, please contact at: <a href="mailto:ncvpripg2026@lnmiit.ac.in">ncvpripg2026@lnmiit.ac.in</a></p>
                   </div>
