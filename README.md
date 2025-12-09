@@ -1,1 +1,1 @@
-Deployed Link: https://ncvpripg-26-main.vercel.app/
+Deployed Link: https://ncvpripg-26.vercel.app/
