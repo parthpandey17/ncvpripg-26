@@ -16,10 +16,10 @@ function ImportantDatesSection() {
 
     // Only these 4 have real dates
     const countdownElements = [
-      { id: 'submissionStarts', date: 'March 15, 2026' },
-      { id: 'submissionEnds', date: 'April 15, 2026' },
-      { id: 'reviewResults', date: 'June 15, 2026' },
-      { id: 'registrationCameraReady', date: 'June 15, 2026' } // use starting date for countdown
+      { id: 'submissionStarts', date: 'March 10, 2026' },
+      { id: 'submissionEnds', date: 'April 10, 2026' },
+      { id: 'notificationAcceptance', date: 'June 20, 2026' },
+      { id: 'registrationCameraReady', date: 'June 20, 2026' } // use starting date for countdown
     ];
 
     countdownElements.forEach((item) => {
@@ -49,25 +49,25 @@ function ImportantDatesSection() {
                 {/* Actual updated dates */}
                 <tr>
                   <td>Submissions Start</td>
-                  <td>March 15, 2026</td>
+                  <td>March 10, 2026</td>
                   <td id="submissionStarts"></td>
                 </tr>
 
                 <tr>
                   <td>Submission Ends</td>
-                  <td>April 15, 2026</td>
+                  <td>April 10, 2026</td>
                   <td id="submissionEnds"></td>
                 </tr>
 
                 <tr>
-                  <td>Review Results</td>
-                  <td>June 15, 2026</td>
-                  <td id="reviewResults"></td>
+                  <td>Notification of Acceptance</td>
+                  <td>June 20, 2026</td>
+                  <td id="notificationAcceptance"></td>
                 </tr>
 
                 <tr>
                   <td>Registration & Camera-Ready Submission</td>
-                  <td>June 15, 2026 – July 05, 2026</td>
+                  <td>20 June - 5 July, 2026</td>
                   <td id="registrationCameraReady"></td>
                 </tr>
 

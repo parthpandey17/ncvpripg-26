@@ -43,7 +43,7 @@ function CallForTutorials() {
               </h5>
               <ul style={{marginLeft: '20px'}}>
                 {proposalRequirements.map((item, idx) => (
-                  <li key={idx} style={{marginBottom: '10px'}}>{item}</li>
+                  <li key={idx} style={{marginBottom: '10px', color: '#000'}}>{item}</li>
                 ))}
               </ul>
             </div>
@@ -63,8 +63,8 @@ function CallForTutorials() {
                 <strong>Important Dates</strong>
               </h5>
               <ul style={{marginLeft: '20px'}}>
-                <li style={{marginBottom: '10px'}}>Deadline for submitting proposals: <strong>April 07, 2026</strong></li>
-                <li style={{marginBottom: '10px'}}>Notification of accepted proposals: <strong>April 15, 2026</strong></li>
+                <li style={{marginBottom: '10px', color: '#000'}}>Deadline for submitting proposals: <strong>To be decided</strong></li>
+                <li style={{marginBottom: '10px', color: '#000'}}>Notification of accepted proposals: <strong>To be decided</strong></li>
               </ul>
             </div>
           </div>
@@ -72,7 +72,7 @@ function CallForTutorials() {
           <div className="row justify-content-center mb-5">
             <div className="col-lg-10 col-md-12">
               <p style={{marginBottom: '20px'}}>
-                For any queries, please contact the tutorial chairs at: <a href="mailto:sinnu.thomas@duk.ac.in">sinnu.thomas@duk.ac.in</a> or <a href="mailto:vaanathi@iisc.ac.in">vaanathi@iisc.ac.in</a>
+                For any queries, please contact the Tutorial Chairs at: <a href="mailto:lalupendrapratap.singh@lnmiit.ac.in">lalupendrapratap.singh@lnmiit.ac.in</a>
               </p>
             </div>
           </div>

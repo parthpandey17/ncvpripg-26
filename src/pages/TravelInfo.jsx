@@ -65,7 +65,7 @@ function TravelInfo() {
               </h5>
               <ul style={{marginLeft: '20px'}}>
                 {directions.map((dir, idx) => (
-                  <li key={idx} style={{marginBottom: '12px'}}>{dir}</li>
+                  <li key={idx} style={{marginBottom: '12px', color: '#000'}}>{dir}</li>
                 ))}
               </ul>
             </div>

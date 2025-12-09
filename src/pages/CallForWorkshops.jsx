@@ -45,7 +45,7 @@ function CallForWorkshops() {
             <div className="col-lg-10 col-md-12">
               <ul style={{marginLeft: '20px'}}>
                 {workshopTopics.map((topic, idx) => (
-                  <li key={idx} style={{marginBottom: '10px'}}>{topic}</li>
+                  <li key={idx} style={{marginBottom: '10px', color: '#000'}}>{topic}</li>
                 ))}
               </ul>
             </div>
@@ -67,7 +67,7 @@ function CallForWorkshops() {
               <p>Each Workshop Proposal must include (please follow the following order in your proposal):</p>
               <ul style={{marginLeft: '20px'}}>
                 {proposalRequirements.map((item, idx) => (
-                  <li key={idx} style={{marginBottom: '10px'}}>{item}</li>
+                  <li key={idx} style={{marginBottom: '10px', color: '#000'}}>{item}</li>
                 ))}
               </ul>
             </div>
@@ -80,7 +80,7 @@ function CallForWorkshops() {
               </h5>
               <p>Email the proposal PDF to:</p>
               <p style={{fontSize: '16px', fontWeight: 'bold', color: '#212121'}}>
-                <a href="mailto:workshops.ncvpripg.2026@gmail.com">workshops.ncvpripg.2026@gmail.com</a>
+                <a href="mailto:ankit.jha@lnmiit.ac.in">ankit.jha@lnmiit.ac.in</a>
               </p>
               <p style={{marginTop: '20px'}}>
                 All workshop abstracts and presentations will be compiled and archived online. No proceedings with any publisher are planned at this time.

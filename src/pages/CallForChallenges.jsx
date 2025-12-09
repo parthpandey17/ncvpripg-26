@@ -32,13 +32,13 @@ function CallForChallenges() {
   ];
 
   const importantDates = [
-    { event: 'Challenges Proposal Submission Deadline', date: 'April 07, 2026' },
-    { event: 'Notification of Selection', date: 'April 15, 2026' },
-    { event: 'Web Posting of Challenges', date: 'April 30, 2026' },
-    { event: 'Opening Date for Submission to Challenges', date: 'May 10, 2026' },
-    { event: 'Closing Date for Submission to Challenges', date: 'June 5, 2026' },
-    { event: 'Announcement of Challenge Winners', date: 'July 1, 2026' },
-    { event: 'Registration Deadline for Challenge Attendees', date: 'July 1, 2026' }
+    { event: 'Challenges Proposal Submission Deadline', date: 'To be decided' },
+    { event: 'Notification of Selection', date: 'To be decided' },
+    { event: 'Web Posting of Challenges', date: 'To be decided' },
+    { event: 'Opening Date for Submission to Challenges', date: 'To be decided' },
+    { event: 'Closing Date for Submission to Challenges', date: 'To be decided' },
+    { event: 'Announcement of Challenge Winners', date: 'To be decided' },
+    { event: 'Registration Deadline for Challenge Attendees', date: 'To be decided' }
   ];
 
   return (
@@ -70,7 +70,7 @@ function CallForChallenges() {
                 </h5>
                 <ul style={{marginLeft: '20px'}}>
                   {section.items.map((item, i) => (
-                    <li key={i} style={{marginBottom: '10px'}}>{item}</li>
+                    <li key={i} style={{marginBottom: '10px', color: '#000'}}>{item}</li>
                   ))}
                 </ul>
               </div>
@@ -86,7 +86,7 @@ function CallForChallenges() {
                 <strong>Note:</strong> It is possible to propose a combined workshop + challenge (within the 3-hour limit for the event). Please note the workshop guidelines available separately and mention in your proposal if you wish to configure your event this way.
               </p>
               <p style={{marginBottom: '30px'}}>
-                Proposals should be submitted as a pdf via email to <a href="mailto:ncvpripg2026@lnmiit.ac.in">ncvpripg2026@lnmiit.ac.in</a>
+                Proposals should be submitted as a pdf via email to <a href="mailto:aloke.datta@lnmiit.ac.in">aloke.datta@lnmiit.ac.in</a>
               </p>
             </div>
           </div>

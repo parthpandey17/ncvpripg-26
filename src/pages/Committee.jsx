@@ -25,7 +25,7 @@ function Committee() {
     {
       title: 'Program Chairs',
       members: [
-        { name: 'Dr. Prithwijit Guha', position: 'IIT Guwahati', image: '/assets/img/Dr. Aditya Nigam, IIT Mandi.jpg' },
+        { name: 'Dr. Prithwijit Guha', position: 'IIT Guwahati', image: '/assets/img/Dr. Prithwijit Guha, IIT Guwahati.jpg' },
         { name: 'Dr. Aditya Nigam', position: 'IIT Mandi', image: '/assets/img/Dr. Aditya Nigam, IIT Mandi.jpg' },
         { name: 'Dr. Praveen Kumar', position: 'NIT Nagpur', image: '/assets/img/Dr. Praveen Kumar, NIT Nagpur.jpg' },
         { name: 'Dr. Neeta Nain', position: 'MNIT Jaipur', image: '/assets/img/Dr. Neeta Nain, MNIT Jaipur.webp' },

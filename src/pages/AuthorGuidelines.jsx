@@ -113,11 +113,10 @@ function AuthorGuidelines() {
               <div className="content-section">
                 <h2 className="section-heading">Important Dates:</h2>
                 <ul className="list-styled">
-                  <li>Submissions Starts: March 15, 2026</li>
-                  <li>Submission Ends: April 15, 2026 <span style={{color: '#b60a35', fontWeight: 'bold'}}>May 22, 2025 ("Hard Deadline")</span></li>
-                  <li>Review Results: June 15, 2026</li>
-                  <li>Final Camera Ready Paper Submission Ends: July 05, 2025</li>
-                  <li>Registration Ends: July 05, 2025</li>
+                  <li>Submissions Starts: March 10, 2026</li>
+                  <li>Submission Ends: April 10, 2026</li>
+                  <li>Notification of Acceptance: June 20, 2026</li>
+                  <li>Registration & Camera Ready Submission: 20 June - 5 July, 2026</li>
                 </ul>
               </div>
 

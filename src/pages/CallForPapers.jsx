@@ -6,27 +6,44 @@ function CallForPapers() {
     window.scrollTo(0, 0);
   }, []);
 
-  const topics = [
-    'Segmentation',
-    'Texture, Shape, Color',
-    'Restoration, Enhancement',
-    'Visual Tracking',
-    'Motion and Video Analysis',
-    'Explainable Vision Systems',
-    'Compressive Sensing',
-    '3D Reconstruction',
-    'Object and Pattern Recognition',
-    'Machine Learning for Vision and Graphics',
-    'Medical Image Analysis',
-    'Biometrics',
-    'Virtual/Augmented reality',
-    'Human-Computer Interaction',
-    'Vision for Robotics and Autonomous Vehicles',
-    'Computational Imaging',
-    'Sensors and Modelling',
-    'Vision-Based Graphics',
-    'Underwater Image Processing'
-  ];
+ const topics = [
+  'Deep Learning for Computer Vision',
+  'Generative AI for Vision',
+  'Pattern Recognition',
+  'Indian Datasets for Computer Vision',
+  'Segmentation',
+  'Texture, Shape, Color',
+  'Restoration, Enhancement',
+  'Visual Tracking',
+  'Motion and Video Analysis',
+  'Explainable Vision Systems',
+  'Compressive Sensing',
+  '3D Reconstruction',
+  'Object and Pattern Recognition',
+  'Machine Learning for Vision and Graphics',
+  'Medical Image Analysis',
+  'Biometrics, Forensics',
+  'Virtual/Augmented Reality',
+  'Human-Computer Interaction',
+  'Computational Imaging',
+  'Vision for Robotics and Autonomous Vehicles',
+  'Underwater Image Processing',
+  'Sensors and Modelling',
+  'Vision-Based Graphics',
+  'Activity Recognition',
+  'Shape from X',
+  'Vision for Digital Heritage',
+  'Shape Analysis',
+  'Real-Time Graphics',
+  'Animation and Rendering',
+  'Scientific Visualization',
+  'Document Image Analysis',
+  'Remote Sensing',
+  'Scene Understanding',
+  'Vision and Language',
+  'Statistical Methods & Optimization',
+  'Vision and Graphics for Society'
+];
 
   return (
     <div className="page-container">
@@ -52,7 +69,7 @@ function CallForPapers() {
                 <div className="col-lg-10 col-md-12">
                   <ul style={{ lineHeight: 2, textAlign: 'justify' }}>
                     {topics.map((t, i) => (
-                      <li key={i}>{t}</li>
+                      <li key={i} style={{ color: '#000' }}>{t}</li>
                     ))}
                   </ul>
                 </div>
@@ -91,11 +108,10 @@ function CallForPapers() {
                   <div className="mt-4">
                     <h4 style={{ fontWeight: 700 }}>Important Dates:</h4>
                     <ul>
-                      <li>Submissions Starts: March 10, 2025</li>
-                      <li>Submission Ends: April 10, 2025</li>
-                      <li>Review Results: June 10, 2025</li>
-                      <li>Final Camera Ready Paper Submission Ends: July 05, 2025</li>
-                      <li>Registration Ends: July 05, 2025</li>
+                      <li>Submissions Starts: March 10, 2026</li>
+                      <li>Submission Ends: April 10, 2026</li>
+                      <li>Notification of Acceptance: June 20, 2026</li>
+                      <li>Registration & Camera Ready Submission: 20 June - 5 July, 2026</li>
                     </ul>
                     <p style={{ marginTop: '10px' }}>For any queries, please contact at: <a href="mailto:ncvpripg2026@lnmiit.ac.in">ncvpripg2026@lnmiit.ac.in</a></p>
                   </div>
